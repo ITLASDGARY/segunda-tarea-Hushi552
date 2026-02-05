@@ -20,11 +20,20 @@ public class DoormanOfNightclub
 {
     public static string CheckAccess(int age)
     {
-        string mensaje = ""; 
-        
-        // TODO: Usa if/else para asignar el mensaje correcto según la edad
-        // Ejemplo: if (age < 18) { mensaje = "..."; }
-        
-        return mensaje;
+        string mensaje ="Fuera de aquí"; 
+        string mensaje2 ="Bienvenido a la fiesta";
+        string mensaje3 ="Señor, el bingo es al lado";
+
+        if (age < 18)
+        {
+            return mensaje; 
+        }
+        else if (age <= 60)
+        {
+            return mensaje2;
+        }
+        else 
+
+        return mensaje3; 
     }
 }
